@@ -1,0 +1,73 @@
+{
+  "$id": "1",
+  "$values": [
+    {
+      "$id": "2",
+      "Id": 1,
+      "Nickname": "PedroH",
+      "Email": "pedro@email.com",
+      "CreatedAt": "2025-09-16T19:10:11.5453089",
+      "ProgressLogs": {
+        "$id": "3",
+        "$values": [
+          {
+            "$id": "4",
+            "Id": 1,
+            "UserId": 1,
+            "DaysWithoutGambling": 15,
+            "Achievement": "Completou o m\u00F3dulo Descomplica Jogo",
+            "LogDate": "2025-09-16T19:12:45.5131081",
+            "User": {
+              "$ref": "2"
+            }
+          },
+          {
+            "$id": "5",
+            "Id": 2,
+            "UserId": 1,
+            "DaysWithoutGambling": 4,
+            "Achievement": "Completou desafio semanal",
+            "LogDate": "2025-09-16T20:27:04.1025068",
+            "User": {
+              "$ref": "2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$id": "6",
+      "Id": 4,
+      "Nickname": "Nikolas",
+      "Email": "nikolas@email.com",
+      "CreatedAt": "2025-09-16T20:25:38.7836007",
+      "ProgressLogs": {
+        "$id": "7",
+        "$values": [
+          {
+            "$id": "8",
+            "Id": 3,
+            "UserId": 4,
+            "DaysWithoutGambling": 30,
+            "Achievement": "Completou desafio 30 dias",
+            "LogDate": "2025-09-16T20:39:40.0289184",
+            "User": {
+              "$ref": "6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$id": "9",
+      "Id": 5,
+      "Nickname": "Luana",
+      "Email": "luana@email.com",
+      "CreatedAt": "2024-01-01T00:00:00",
+      "ProgressLogs": {
+        "$id": "10",
+        "$values": []
+      }
+    }
+  ]
+}

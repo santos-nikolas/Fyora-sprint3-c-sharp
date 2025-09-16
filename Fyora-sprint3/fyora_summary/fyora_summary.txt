@@ -1,0 +1,4 @@
+--- Relatório Resumo Fyora Admin ---
+Data do Relatório: 16/09/2025 17:57:00
+Total de Usuários no Sistema: 3
+Total de Logs de Progresso Registrados: 3
